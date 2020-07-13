@@ -1,11 +1,11 @@
 {
   "root": true,
   "project": {
-    "name": "PROJECT_NAME"
+    "name": "leaf-node-123"
   },
   "api": {
-    "projectId": "PROJECT_ID",
-    "dataset": "DATASET_ID"
+    "projectId": "kllmp9j3",
+    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",

@@ -26,7 +26,7 @@ const DeployGitHub = () => {
   const deployStudio = () => {
     setDeployingStudio(true)
     fetch(
-      'WEBHOOK_URL',
+      'https://c2je1jc4ub.execute-api.eu-central-1.amazonaws.com/beta/stackbot/add-webhook/76b1014c-8df6-4b66-8659-1b6dec161fe8/drishi1990/leaf-node-123',
       {
         method: 'POST',
         body: JSON.stringify({event_type: 'studio-build-deploy'}),
@@ -43,7 +43,7 @@ const DeployGitHub = () => {
     setDeployingWeb(true)
     setDisableWeb(true)
     fetch(
-      'WEBHOOK_URL',
+      'https://c2je1jc4ub.execute-api.eu-central-1.amazonaws.com/beta/stackbot/add-webhook/76b1014c-8df6-4b66-8659-1b6dec161fe8/drishi1990/leaf-node-123',
       {
         method: 'POST',
         body: JSON.stringify({event_type: 'web-build-deploy'}),
@@ -72,7 +72,7 @@ const DeployGitHub = () => {
             <figure>
               <img src="../../static/badge-studio.svg" />
               <figcaption>
-                <a href="STUDIO_ACTION_URL">View Studio Deployment</a>
+                <a href="https://github.com/leaf-node-123/actions">View Studio Deployment</a>
               </figcaption>
             </figure>
             <button
@@ -89,7 +89,7 @@ const DeployGitHub = () => {
             <figure>
               <img src="../../static/badge.svg" />
               <figcaption>
-                <a href="WEB_ACTION_URL">View Web Deployment</a>
+                <a href="https://github.com/leaf-node-123/actions">View Web Deployment</a>
               </figcaption>
             </figure>
             <div>
